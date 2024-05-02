@@ -1,1 +1,44 @@
-
+1 Zadanie nr 1 – przygotowanie danych
+Dalsze zadania na liście są wykonywane z wykorzystaniem struktury opisującej flotę robotów mobilnych.
+1. Pojedynczy robot jest krotką o polach (parametrach):
+(a) TYP – tekst ze zbioru {„AGV”, „AFV”, „ASV”, „AUV” },
+(b) CENA – liczba rzeczywista z przedziału [0, 10000] (PLN),
+(c) ZASIĘG – liczba całkowita z przedziału [0, 100] (km),
+(d) KAMERA – wartość binarna {0, 1} (jest, nie ma).
+2. Przygotuj procedurę do generacji listy N robotów o losowo zadanych parametrach.
+3. Wyświetl listę robotów i ich parametry (w tabelce: jeden robot – jeden wiersz).
+4. Zaimplementuj funkcję zapisującą/odczytującą strukturę do/z pliku.
+Wejście: długość listy N.
+Wyjście: lista robotów wyświetlona na ekranie i zapisana do pliku.
+2 Zadanie nr 2
+Zaimplementuj stos do przechowywania informacji o robotach.
+Zaimplementuj algorytmy
+• dodawania robota do stosu (parametry robota zadaje użytkownik),
+• usuwania robota ze stosu i wyświetlenia jego parametrów,
+• wyczyszczenia stosu i wyświetlenia parametrów wszystkich usuniętych robotów.
+Wejście: pusty stos robotów.
+Wyjście: stos robotów z dodanymi/usuniętymi robotami.
+1
+3 Zadanie nr 3
+Wykorzystaj dane z poprzednich list (flota robotów).
+Zaimplementuj kolejkę do przechowywania informacji o robotach.
+Zaimplementuj algorytmy
+• dodawania robota do kolejki (parametry robota zadaje użytkownik),
+• usuwania robota ze kolejki i wyświetlenia jego parametrów,
+• wyczyszczenia kolejki i wyświetlenia parametrów wszystkich usuniętych robotów.
+Wejście: pusta kolejka robotów.
+Wyjście: kolejka robotów z dodanymi/usuniętymi robotami.
+4 Zadanie nr 4
+Zaimplementuj listę z dowiązaniami do reprezentacji floty robotów. Zaproponuj postać klucza. Do przechowywania listy zastosuj reprezentację tablicową.
+Zaimplementuj algorytmy
+• dodawania elementu do listy,
+• usuwania elementu z listy,
+• wyszukiwania elementu na liście (i wyświetlania jego parametrów).
+Wejście: pusta lista z dowiązaniami.
+Wyjście: lista z dodanymi/usuniętymi robotami.
+5 Zadanie nr 5
+Pobierz od użytkownika graf nieskierowany (dowolna struktura, może być z pliku). Wykorzystaj zbiory
+rozłączne do weryfikacji czy dwa wierzchołki zadanego grafu należą do jednej spójnej składowej.
+Wyświetl listy wierzchołków tworzących spójne składowe.
+Wejście: Graf nieskierowany.
+Wyjście: listy wierzchołków tworzących spójne składowe.
